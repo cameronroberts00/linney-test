@@ -217,6 +217,9 @@ const App = () => {
           <div
             style={{
               display: "flex",
+              gap: 64,
+              flexWrap:"wrap",
+              justifyContent:"center"
             }}
           >
             <PriceOption
