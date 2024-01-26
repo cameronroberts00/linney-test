@@ -15,6 +15,14 @@
   letter-spacing: 0em;
   text-align: center;
 }
+.headersub {
+  color: #dfdfdf;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 .text {
   font-size: 16px;
   font-weight: 400;

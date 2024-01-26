@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "./components/Button";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Panel from "./components/Panel";
 import PriceOption from "./components/PriceOption";
@@ -218,8 +219,8 @@ const App = () => {
             style={{
               display: "flex",
               gap: 64,
-              flexWrap:"wrap",
-              justifyContent:"center"
+              flexWrap: "wrap",
+              justifyContent: "center",
             }}
           >
             <PriceOption
@@ -255,6 +256,29 @@ const App = () => {
             />
           </div>
         </Panel>
+        <Panel>
+          <div
+            style={{
+              marginTop: 48,
+              padding: 48,
+              backgroundColor: "#313131",
+              width: "100%",
+            }}
+          >
+            <h3 className={styles.headersub}>
+              Ready to get started or have questions?
+            </h3>
+            <p className={styles.text} style={{ textAlign: "center" }}>
+              Set up your free account today or contact a sales consultant to
+              learn more.
+            </p>
+            <div style={{ display: "flex", justifyContent: "center", gap: 64 }}>
+              <Button height={72} width={250} text="Create Account" primary />
+              <Button height={72} width={250} text="Contact Sales" />
+            </div>
+          </div>
+        </Panel>
+        <Footer />
       </main>
     </>
   );
