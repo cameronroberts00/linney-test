@@ -274,7 +274,7 @@ const App = () => {
             </p>
             <div style={{ display: "flex", justifyContent: "center", gap: 64 }}>
               <Button height={72} width={250} text="Create Account" primary />
-              <Button height={72} width={250} text="Contact Sales" />
+              <Button borderVers height={72} width={250} text="Contact Sales" />
             </div>
           </div>
         </Panel>

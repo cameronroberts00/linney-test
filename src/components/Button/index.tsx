@@ -7,6 +7,7 @@ type ButtonProps = {
   height?: number;
   width?: number;
   primary?: boolean;
+  borderVers?: boolean;
 };
 
 const Button = ({
@@ -16,13 +17,19 @@ const Button = ({
   onClick,
   height,
   width,
+  borderVers,
 }: ButtonProps) => {
   return (
     <button
       style={{
         height: height,
         width: width,
-        backgroundColor: primary ? "#02b159" : "#242424",
+        border: borderVers ? "1px solid #DFDFDF" : undefined,
+        backgroundColor: borderVers
+          ? "#313131"
+          : primary
+          ? "#02b159"
+          : "#242424",
       }}
       className={styles.button}
       onClick={onClick}
