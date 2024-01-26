@@ -1,0 +1,44 @@
+.h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #dfdfdf;
+  margin: 0;
+}
+.header {
+  color: #dfdfdf;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #dfdfdf;
+}
+.inline-link {
+  color: #02b159;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.map {
+  object-fit: cover;
+  max-width: 100%;
+  margin: 48px;
+}
